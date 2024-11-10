@@ -7,9 +7,11 @@ import pyautogui as py
 import time
 import datetime
 import webbrowser
+import os
 
 py.PAUSE=1
-
+print("ALESSANDRA")
+print(os.environ)
 E1 = datetime.time(8,4).strftime("%H:%M")
 S1 = datetime.time(12,20).strftime("%H:%M")
 E2 = datetime.time(13,15).strftime("%H:%M")

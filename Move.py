@@ -74,7 +74,7 @@ while True:
     else:
         
         logging.info("Data: " + datetime.datetime.today().strftime("%A") + " - Hora: " + datetime.datetime.now().strftime("%H:%M:%S"))                
-        logging.info("Aguardando por 1 hora")
+        logging.info("Aguardando por 1 horas")
         time.sleep(3600)
         
     

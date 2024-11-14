@@ -14,7 +14,7 @@ import logging
 logging.basicConfig(level=logging.INFO, filename="logs.log", format="%(asctime)s - %(levelname)s - %(message)s")
 
 
-py.PAUSE=2
+py.PAUSE=1
 
 E1 = datetime.time(8,4).strftime("%H:%M")
 S1 = datetime.time(12,20).strftime("%H:%M")

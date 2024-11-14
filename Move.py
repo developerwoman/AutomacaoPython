@@ -13,7 +13,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, filename="logs.log", format="%(asctime)s - %(levelname)s - %(message)s")
 
-
+logging.info("Teste commit")
 py.PAUSE=1
 
 E1 = datetime.time(8,4).strftime("%H:%M")

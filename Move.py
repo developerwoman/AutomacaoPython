@@ -75,7 +75,7 @@ while True:
         
         logging.info("Data: " + datetime.datetime.today().strftime("%A") + " - Hora: " + datetime.datetime.now().strftime("%H:%M:%S"))                
         logging.info("Aguardando por 1 horas")
-        time.sleep(3600)
+        time.sleep(3600) 
         
     
 # código da empresa a524560
